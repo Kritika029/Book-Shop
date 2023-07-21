@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.shop{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 75px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    position: absolute;
+    width: 253px;
+    height: 190px;
+    left: 100px;
+    top: 25px;
+}
+span{
+    color: #8E001A;
+}
+.box{
+    display: flex;
+    padding: 0px 6px;
+    flex-direction: column;
+    align-items: center;
+    gap: 92px;
+}
+.group {
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+    left: 480px;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 150px 9px 8px;
+    gap: 5px;
+    
+    width: 512px;
+    height: 40px;
+    
+    background: #DBBFB5;
+    opacity: 0.5;
+    border-radius: 10px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: .3s ease;
+}
+   
+.input::placeholder {
+    color: #1A1717;
+}
+   
+.input:focus, input:hover {
+    outline: none;
+    border-color: rgba(234,76,137,0.4);
+    background-color: #DBBFB5;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+.btn{
+    border: 2px solid transparent;
+    position: relative;
+    left: 65rem;
+    padding: 10px 25px;
+    transition: transform .4s;
+}
+.btn img{
+    height: 30px;
+    width: 30px;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.pre{
+    position: relative;
+    left: 67rem;
+    top: 50px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.cat{
+    list-style-type: none;
+    display: inline-block;
+    flex-direction: row;
+    line-height: 28px;
+    align-items: center;
+    position: absolute;
+    margin-top: 15px;
+    left: 515px;
+}
+.ne{
+    width: 150px;
+    border-radius: 6px;
+    border: 3px solid #000;
+    background: var(--brown-15, #E4CFC7);
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+ul li a:hover{
+    color: #B87E6A;
+    transition: .4s;
+}
+.sli{
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    left: 565px;
+    top: 293px;
+}
+.slider{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 28px;
+
+  position: absolute;
+  left: 100px;
+  top: 450px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+.tex{
+    display: flex;
+    width: 1050px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.tex h2{
+    color: #000;
+    font-family: Rye;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.team{
+  text-align: center;
+  border: .5px solid #ddd;
+  background: #fff;
+  width: 230px;
+  height: 396px;
+}
+.team h1{
+    padding-top: 20px;
+}
+.slide{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 28px;
+  
+    position: absolute;
+    left: 100px;
+    top: 60rem;
+  }
+.con{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 28px;
+  
+    position: absolute;
+    left: 100px;
+    top: 93rem;
+}
+.footer {
+    position: relative;
+    top: 112rem;
+    bottom: 0;
+    left: -7rem;
+    width: 700rem;
+    height: 230px;
+    background-image: url(shop.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    color: #caded1;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer__about {
+    flex: 1;
+  }
+  .footer__social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer__social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .footer__contact {
+    text-align: center;
+  }
+  
+  .footer__contact h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+.social{
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    gap: 10px;
+    position: absolute;
+    left: 35rem;
+    bottom: 7rem; 
+  }
+  .custom-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown button */
+.custom-dropdown .dropbtn {
+    border-radius: 6px;
+    border: 2px solid #000;
+    background: var(--brown-15, #E4CFC7);
+    padding: 1px;
+    font-size: 13px;;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style the dropdown content */
+.custom-dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 6px;
+    border: 2px solid #000;
+    background: var(--brown-15, #E4CFC7);
+    min-width: 120px;
+    font-size: 13px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the options (links) */
+.custom-dropdown .dropdown-content a {
+    color: black;
+    padding-left: 3px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Change color of links on hover */
+.custom-dropdown .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown content when the dropdown button is clicked */
+.custom-dropdown:hover .dropdown-content {
+    display: block;
+}

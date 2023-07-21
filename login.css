@@ -1,0 +1,91 @@
+body {
+    background-image: url(shoppy.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0; /* Remove default body margin to avoid unnecessary space */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Use min-height to ensure the wrapper covers the whole viewport */
+}
+
+.form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #FFF2ED;
+    opacity: 80%;
+    box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-signin-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #8E001A;
+}
+
+.form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+input[type="text"] {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.checkbox {
+    font-weight: normal;
+    margin: 5px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6.354px;
+    opacity: 0.6700000166893005;
+    background: var(--brown-5, #A65E45);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8E001A;
+    opacity: 0.6700000166893005;
+}
+
+.signup-link {
+    position: absolute;
+    bottom: 120px; /* Adjust this value to control the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.signup-link a {
+    text-decoration: none;
+    color: #8E001A;
+    font-size: 30px;
+    font-weight: bold;
+}

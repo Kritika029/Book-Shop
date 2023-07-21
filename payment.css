@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 75px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+h2{
+    display: inline-flex;
+    padding: 10px;
+    padding-left: 10rem;
+    align-items: flex-start;
+    gap: 10px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+h5{
+    display: flex;
+    padding: 20px;
+    padding-left: 10rem;
+    align-items: flex-start;
+    gap: 10px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.pic{
+    padding-left: 10rem;
+}
+img{
+    padding: 10px;
+}
+.register{
+    display: flex;
+    height: 275px;
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 300px;
+    gap: 60px;
+}
+.input_box{
+    display: flex;
+    height: 275px;
+    padding: 0px 3px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+}
+.input_box input{
+    display: flex;
+    width: 350px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.30);
+}
+.uname{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.login_btn{
+    display: flex;
+    width: 114px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 240px;
+    border-radius: 6px;
+    background: rgba(181, 76, 40, 0.66);
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.30);
+}
+.login_btn:hover{
+    transform: scale(1.2);
+}
